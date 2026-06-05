@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Leaftap Application"> 
+	<test name="Module1">
+	<parameter name="Browser" value="Chrome"></parameter>
+	<parameter name="url" value="http://leaftaps.com/opentaps/control/main"></parameter>
+	<parameter name="username" value="democsr2"></parameter>
+	<parameter name="password" value="crmsfa"></parameter>
+		<classes>
+			<class name="TestNG.CreateLead"/>
+		</classes>
+	</test>
+</suite>
+ 
